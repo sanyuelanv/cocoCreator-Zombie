@@ -11,3 +11,11 @@ export let shortestAngleBetween = (angle1,angle2)=>{
     }
     return angle
 }
+export let rand = (max,min)=>{
+    if(max < min){
+        let t = max 
+        max = min
+        min = t
+    }
+    return cc.random0To1() * (max - min) + min
+}

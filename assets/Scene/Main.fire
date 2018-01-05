@@ -63,6 +63,9 @@
       },
       {
         "__id__": 8
+      },
+      {
+        "__id__": 9
       }
     ],
     "_tag": -1,
@@ -303,11 +306,7 @@
     "_parent": {
       "__id__": 2
     },
-    "_children": [
-      {
-        "__id__": 9
-      }
-    ],
+    "_children": [],
     "_tag": -1,
     "_active": true,
     "_components": [],
@@ -350,10 +349,10 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "enemy",
+    "_name": "cat",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 8
+      "__id__": 2
     },
     "_children": [],
     "_tag": -1,
@@ -364,7 +363,7 @@
       }
     ],
     "_prefab": null,
-    "_id": "0cJvBhZslFa5Np+OqRqWsI",
+    "_id": "cfto+IBGdEcJfYviQ2Yk/q",
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
@@ -381,8 +380,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 231,
-      "height": 316
+      "width": 0,
+      "height": 0
     },
     "_rotationX": 0,
     "_rotationY": 0,
@@ -390,8 +389,8 @@
     "_scaleY": 1,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": 529,
-      "y": 18
+      "x": 0,
+      "y": 0
     },
     "_skewX": 0,
     "_skewY": 0,
@@ -401,30 +400,17 @@
     "groupIndex": 0
   },
   {
-    "__type__": "cc.Sprite",
+    "__type__": "8891cUhHhBPSavB0W4GTpkD",
     "_name": "",
     "_objFlags": 0,
     "node": {
       "__id__": 9
     },
     "_enabled": true,
-    "_spriteFrame": {
-      "__uuid__": "aa822ec6-4780-4a59-9c54-73f406b68a2a"
-    },
-    "_type": 0,
-    "_sizeMode": 1,
-    "_fillType": 0,
-    "_fillCenter": {
-      "__type__": "cc.Vec2",
-      "x": 0,
-      "y": 0
-    },
-    "_fillStart": 0,
-    "_fillRange": 0,
-    "_isTrimmedMode": true,
-    "_srcBlendFactor": 770,
-    "_dstBlendFactor": 771,
-    "_atlas": null
+    "maxCatCount": 15,
+    "catPrefab": {
+      "__uuid__": "36e6242e-8464-4695-baf0-1799b9d78df9"
+    }
   },
   {
     "__type__": "cc.Canvas",
@@ -452,6 +438,9 @@
     "_enabled": true,
     "zombie": {
       "__id__": 7
+    },
+    "catNode": {
+      "__id__": 10
     }
   }
 ]
